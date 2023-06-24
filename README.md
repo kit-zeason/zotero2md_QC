@@ -7,7 +7,7 @@ to drag-and-drop [Zotero](https://github.com/zotero/zotero) items directly into 
 [Author, Year](zotero_link)
 ```
 
-Which may be rendered as "`[Author, Year`]" in markdown files. 
+Which may be rendered as "`[Author, Year]`" in markdown files. 
 By coping this template to BBT's option -> Export -> Quick-Copt -> Eta templates, you could use BBT's QuickCopy feature to create easy-reading links in markdown files that associate the "author-year" mark with the corresponding Zotero item.
 
 What may look confusing is that this template exported both the lastName and the name of creator while replacing all "undefined". 
