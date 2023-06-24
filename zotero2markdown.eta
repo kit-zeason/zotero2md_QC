@@ -1,0 +1,5 @@
+<% for (const item of it.items) {%>[<% if (item.creators.length === 1) { %>
+<%= (item.creators[0].lastName + item.creators[0].name).replace(/undefined/g, "")%>
+<%} else if (item.creators.length === 2) { %>
+<%= (item.creators[0].lastName + item.creators[0].name).replace(/undefined/g, "")%> & <%= (item.creators[1].lastName + item.creators[1].name).replace(/undefined/g, "")%><%} else {%>
+<%= (item.creators[0].lastName + item.creators[0].name).replace(/undefined/g, "")%> et al.<%} %><%%>, <%= item.date.slice(0,4)%>](zotero://select/library/items/@<%= item.itemKey%>)<% } %>
