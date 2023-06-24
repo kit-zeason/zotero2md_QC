@@ -1,7 +1,7 @@
-# A QuickCopy Template for Export Zotero Items to Markdown Files
+# A QuickCopy Template for Exporting Zotero Items to Markdown Files
 
 Here I provided an [ETA](https://eta.js.org/) template for [better bibtex](https://github.com/retorquere/zotero-better-bibtex) users 
-to drag-and-drop [Zotero](https://github.com/zotero/zotero) items into Markdown files like:
+to drag-and-drop [Zotero](https://github.com/zotero/zotero) items directly into Markdown files like:
 
 > [Author, Year](zotero_link)
 
